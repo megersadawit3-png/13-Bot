@@ -12,17 +12,17 @@ load_dotenv()
 # ============================================
 
 # የተጠቃሚ ቦት ቶከን (ከBotFather ያገኙት)
-BOT_TOKEN = os.getenv('BOT_TOKEN', '')
+BOT_TOKEN = os.getenv'8990822888:AAFrZqLp3PiiIh64-8enDmmdW0wHNN9Mxec'
 
 # የአስተዳዳሪ ቦት ቶከን (ከBotFather ያገኙት)
-ADMIN_BOT_TOKEN = os.getenv('ADMIN_BOT_TOKEN', '')
+ADMIN_BOT_TOKEN = os.getenv'8641863835:AAFzywP-VD6eX2n69suWRMpbXB8jkvhQy2c'
 
 # ============================================
 # አስተዳዳሪዎች
 # ============================================
 
 # የአስተዳዳሪ ተጠቃሚዎች የቴሌግራም መታወቂያ
-ADMIN_IDS = [int(id.strip()) for id in os.getenv('ADMIN_IDS', '').split(',') if id.strip()]
+ADMIN_IDS = [int(id.strip()) for id in os.getenv'8772950809'.split(',') if id.strip()]
 
 # ============================================
 # የውሂብ ጎታ
