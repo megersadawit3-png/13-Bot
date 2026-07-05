@@ -12,17 +12,17 @@ load_dotenv()
 # ============================================
 
 # የተጠቃሚ ቦት ቶከን (ከBotFather ያገኙት)
-BOT_TOKEN = os.getenv'8990822888:AAFrZqLp3PiiIh64-8enDmmdW0wHNN9Mxec'
+BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 
 # የአስተዳዳሪ ቦት ቶከን (ከBotFather ያገኙት)
-ADMIN_BOT_TOKEN = os.getenv'8641863835:AAFzywP-VD6eX2n69suWRMpbXB8jkvhQy2c'
+ADMIN_BOT_TOKEN = os.getenv('ADMIN_BOT_TOKEN', '')
 
 # ============================================
 # አስተዳዳሪዎች
 # ============================================
 
-# የአስተዳዳሪ ተጠቃሚዎች የቴሌግራም መታወቂያ
-ADMIN_IDS = [int(id.strip()) for id in os.getenv'8772950809'.split(',') if id.strip()]
+# የአስተዳዳሪ ተጠቃሚዎች የቴሌግራም መታወቂያ (ነጠላ ሰረዝ ይለያቸው)
+ADMIN_IDS = [int(id.strip()) for id in os.getenv('ADMIN_IDS', '').split(',') if id.strip()]
 
 # ============================================
 # የውሂብ ጎታ
@@ -61,9 +61,9 @@ CONTENT_CATEGORIES = {
 
 AUTHOR_LEVELS = {
     'standard': '📌 Standard / መደበኛ / Idilee',
-    'verified': '✅ Verified / የተረጋገጠ / Mirkanaa'e',
+    'verified': '✅ Verified / የተረጋገጠ / Mirkanaa\'e',
     'trusted': '⭐ Trusted / የታመነ / Amanamaa',
-    'top': '🏆 Top / ከፍተኛ / Ol'aanaa',
+    'top': '🏆 Top / ከፍተኛ / Ol\'aanaa',
     'editors_choice': '👑 Editor\'s Choice / የአርታኢ ምርጫ / Filannaa Gulaalaa'
 }
 
@@ -78,3 +78,26 @@ CONTENT_STATUS = {
     'suspended': '⛔ Suspended / የታገደ / Dhaabate',
     'rejected': '❌ Rejected / የተሰረዘ / Hafame'
 }
+
+# ============================================
+# የስርዓት መልእክቶች (አማራጭ)
+# ============================================
+
+SYSTEM_MESSAGES = {
+    'welcome': '👋 እንኳን ደህና መጣህ',
+    'error': '❌ ስህተት ተከስቷል',
+    'success': '✅ ተሳክቷል'
+}
+
+# ============================================
+# ለሙከራ ብቻ
+# ============================================
+
+if __name__ == '__main__':
+    print("🔍 ውቅር ቼክ")
+    print(f"BOT_TOKEN: {BOT_TOKEN[:10]}... (ከሆነ)" if BOT_TOKEN else "❌ BOT_TOKEN ባዶ ነው")
+    print(f"ADMIN_BOT_TOKEN: {ADMIN_BOT_TOKEN[:10]}... (ከሆነ)" if ADMIN_BOT_TOKEN else "❌ ADMIN_BOT_TOKEN ባዶ ነው")
+    print(f"ADMIN_IDS: {ADMIN_IDS}")
+    print(f"DATABASE_FILE: {DATABASE_FILE}")
+    print(f"SALES_THRESHOLD: {SALES_THRESHOLD}")
+    print(f"DEFAULT_LANGUAGE: {DEFAULT_LANGUAGE}")
