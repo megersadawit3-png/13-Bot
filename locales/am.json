@@ -1,0 +1,98 @@
+{
+    "language_name": "አማርኛ",
+    "language_code": "am",
+    
+    "welcome": "👋 እንኳን ደህና መጣህ {name}!",
+    "welcome_description": "ይህ የዲጂታል ህትመት ገበያ መድረክ ነው።\nደራሲዎች ይዘት ማቅረብ እና ተጠቃሚዎች መግዛት ይችላሉ።\n\n🔐 ደህንነት እና መተማመን ቀዳሚ ነው!",
+    "language_prompt": "🌍 እባክህ ቋንቋህን ምረጥ:",
+    "language_changed": "✅ ቋንቋህ ተቀይሯል!",
+    
+    "buttons": {
+        "browse": "📚 መደርደሪያ",
+        "become_author": "✍️ ደራሲ ለመሆን",
+        "my_library": "📖 ቤተ-መጽሐፍቴ",
+        "about": "ℹ️ ስለ መድረክ",
+        "admin": "⚙️ አስተዳዳሪ",
+        "back": "🔙 ተመለስ",
+        "buy": "🛒 ግዛ",
+        "download": "📥 አውርድ",
+        "refresh": "🔄 አድስ",
+        "cancel": "❌ ሰርዝ",
+        "change_language": "🌍 ቋንቋ ቀይር"
+    },
+    
+    "browse": {
+        "title": "📚 የሚገኙ ይዘቶች:",
+        "empty": "📭 በአሁኑ ጊዜ ምንም ይዘት የለም።\nበቅርቡ ይመጣል!",
+        "price": "💰 {price} ብር",
+        "no_description": "ምንም መግለጫ የለም"
+    },
+    
+    "content": {
+        "view": "📖 *{title}*\n\n📝 {description}\n\n💰 ዋጋ: {price} ብር\n📊 ሽያጭ: {sales}\n📂 ምድብ: {category}",
+        "sample_available": "📎 ናሙና ይገኛል",
+        "not_found": "❌ ይዘቱ አልተገኘም",
+        "uploaded": "📤 ይዘት ተጭኗል!"
+    },
+    
+    "purchase": {
+        "success": "✅ ግዢህ ተሳክቷል!\n\n📖 {title}\n💰 {price} ብር\n\nይህ ይዘት ወደ ቤተ-መጽሐፍትህ ተጨምሯል።",
+        "already_owned": "✅ ቀድመህ ገዝተሀል!\n📖 {title}\n\nማውረድ ትፈልጋለህ?",
+        "failed": "❌ ግዢው አልተሳካም። እባክህ እንደገና ሞክር።"
+    },
+    
+    "author": {
+        "already": "✅ ቀድሞ ደራሲ ነህ!\n📊 ደረጃህ: {level}\n📈 ሽያጭ: {sales}",
+        "welcome": "✍️ እንኳን ደህና መጣህ ደራሲ!\n\nአሁን ይዘት መጫን ትችላለህ።\n\nይዘት ለመጫን /upload ትዕዛዝ ተጠቀም።\n\n📌 ማስታወሻ:\n• PDF ፋይሎች ብቻ\n• የቅጂ መብት መግለጽ አለበት\n• ዋጋ በአስተዳዳሪ ይጸድቃል",
+        "not_author": "❌ ደራሲ አይደለህም!\nመጀመሪያ /become_author ተጠቀም።"
+    },
+    
+    "upload": {
+        "instruction": "📤 ይዘት መጫን\n\nየሚከተለውን መረጃ በቅደም ተከተል ላክ:\n\n1️⃣ ርዕስ\n2️⃣ መግለጫ\n3️⃣ ምድብ (ebook, magazine, handout, question_bank, research_paper)\n4️⃣ ዋጋ (በብር)\n5️⃣ PDF ፋይል",
+        "title_prompt": "✅ ርዕስ ተቀባይነት አግኝቷል!\nአሁን መግለጫ ላክ።",
+        "description_prompt": "✅ መግለጫ ተቀባይነት አግኝቷል!\nምድብ ላክ:",
+        "category_prompt": "✅ ምድብ ተቀባይነት አግኝቷል!\nዋጋ (በብር) ላክ:",
+        "price_prompt": "✅ ዋጋ ተቀባይነት አግኝቷል!\nአሁን PDF ፋይሉን ላክ።",
+        "invalid_price": "❌ ትክክለኛ ዋጋ አይደለም! ቁጥር ላክ።",
+        "invalid_file": "❌ የተደገፈ ፋይል አይደለም!\nእባክህ PDF ላክ።",
+        "file_prompt": "❌ እባክህ PDF ፋይል ላክ!\nፋይሉን እንደ ሰነድ (document) ላክ።",
+        "success": "✅ ይዘትህ በስኬት ተጭኗል!\n\n📖 {title}\n💰 {price} ብር\n\nበአስተዳዳሪ ከተረጋገጠ በኋላ ይታተማል።",
+        "cancelled": "❌ መጫኛ ተሰርዟል።"
+    },
+    
+    "library": {
+        "title": "📖 *ቤተ-መጽሐፍቴ*",
+        "empty": "📭 ቤተ-መጽሐፍትህ ባዶ ነው።\nይዘቶችን በመግዛት ሙላው!",
+        "download": "📥 {title} ማውረድ",
+        "downloaded": "✅ {title} ተውርዷል!"
+    },
+    
+    "admin": {
+        "welcome": "👋 እንኳን ደህና መጣህ አስተዳዳሪ {name}!\n\n📊 የአስተዳዳሪ ቦት ላይ ነህ።\n{status}\nከታች ያሉትን አማራጮች ተጠቀም።",
+        "pending_count": "📝 {count} ይዘቶች ለግምገማ ይጠባበቃሉ",
+        "dispute_count": "⚠️ {count} ክርክሮች መፍትሄ ይፈልጋሉ",
+        "dashboard": "📊 *የመድረክ ዳሽቦርድ*\n\n👥 *ተጠቃሚዎች*\n• አጠቃላይ: {total_users}\n• ደራሲዎች: {total_authors}\n\n📚 *ይዘቶች*\n• አጠቃላይ: {total_content}\n• ለግምገማ: {pending_content}\n\n💰 *ንግድ*\n• አጠቃላይ ግዢዎች: {total_purchases}\n• አጠቃላይ ገቢ: {revenue} ብር",
+        "no_pending": "✅ ምንም ይዘት ለግምገማ የለም!",
+        "approved": "✅ ይዘቱ '{title}' ተፅድቋል!",
+        "rejected": "❌ ይዘቱ '{title}' ተሰርዟል!",
+        "review": "📖 *ይዘት ግምገማ*\n\n*ርዕስ:* {title}\n*መግለጫ:* {description}\n*ምድብ:* {category}\n*ዋጋ:* {price} ብር\n*ደራሲ:* {author}\n*የቅጂ መብት:* {copyright}\n*የተጫነበት:* {date}",
+        "verify_authors": "✅ *ያልተረጋገጡ ደራሲዎች*\n\n{list}",
+        "author_verified": "✅ ደራሲው ተረጋግጧል!",
+        "disputes": "⚠️ *በመጠባበቅ ላይ ያሉ ክርክሮች*\n\n{list}",
+        "dispute_resolved": "✅ ክርክሩ ተፈትቷል!",
+        "broadcast": "📢 *ማስታወቂያ መላክ*\n\nየሚልኩትን መልእክት ይተይቡ።",
+        "broadcast_sent": "✅ ማስታወቂያ ተልኳል!\n📤 የተላከ: {sent}\n❌ አልተላከ: {failed}",
+        "analytics": "📈 *የመድረክ ትንታኔዎች*\n\n{data}"
+    },
+    
+    "errors": {
+        "admin_only": "⛔ ይህንን ትዕዛዝ ለመጠቀም አስተዳዳሪ መሆን አለብህ!",
+        "not_found": "❌ አልተገኘም",
+        "try_again": "❌ እባክህ እንደገና ሞክር።",
+        "unknown": "❌ የማይታወቅ ስህተት ተከስቷል።"
+    },
+    
+    "system": {
+        "status": "⚙️ *ስርዓት ሁኔታ*\n\n📊 *ውሂብ ጎታ*\n• መጠን: {size} MB\n• ሁኔታ: ✅ በስራ ላይ\n\n🤖 *ቦቶች*\n• የተጠቃሚ ቦት: ✅ ንቁ\n• የአስተዳዳሪ ቦት: ✅ ንቁ\n\n📅 *የስርዓት ጊዜ*\n• አሁን: {time}\n• ስርዓት: ✅ ጤናማ"
+    }
+}
