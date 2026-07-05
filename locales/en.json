@@ -1,0 +1,98 @@
+{
+    "language_name": "English",
+    "language_code": "en",
+    
+    "welcome": "👋 Welcome {name}!",
+    "welcome_description": "This is a Digital Publishing Marketplace.\nAuthors can submit content and users can purchase.\n\n🔐 Security and trust are our priority!",
+    "language_prompt": "🌍 Please select your language:",
+    "language_changed": "✅ Language changed!",
+    
+    "buttons": {
+        "browse": "📚 Browse",
+        "become_author": "✍️ Become Author",
+        "my_library": "📖 My Library",
+        "about": "ℹ️ About",
+        "admin": "⚙️ Admin",
+        "back": "🔙 Back",
+        "buy": "🛒 Buy",
+        "download": "📥 Download",
+        "refresh": "🔄 Refresh",
+        "cancel": "❌ Cancel",
+        "change_language": "🌍 Change Language"
+    },
+    
+    "browse": {
+        "title": "📚 Available Content:",
+        "empty": "📭 No content available at the moment.\nComing soon!",
+        "price": "💰 {price} Birr",
+        "no_description": "No description"
+    },
+    
+    "content": {
+        "view": "📖 *{title}*\n\n📝 {description}\n\n💰 Price: {price} Birr\n📊 Sales: {sales}\n📂 Category: {category}",
+        "sample_available": "📎 Sample available",
+        "not_found": "❌ Content not found",
+        "uploaded": "📤 Content uploaded!"
+    },
+    
+    "purchase": {
+        "success": "✅ Purchase successful!\n\n📖 {title}\n💰 {price} Birr\n\nThis content has been added to your library.",
+        "already_owned": "✅ You already own this!\n📖 {title}\n\nWould you like to download?",
+        "failed": "❌ Purchase failed. Please try again."
+    },
+    
+    "author": {
+        "already": "✅ You are already an author!\n📊 Level: {level}\n📈 Sales: {sales}",
+        "welcome": "✍️ Welcome author!\n\nYou can now upload content.\n\nUse /upload to upload content.\n\n📌 Note:\n• PDF files only\n• Copyright must be declared\n• Price must be approved by admin",
+        "not_author": "❌ You are not an author!\nFirst use /become_author."
+    },
+    
+    "upload": {
+        "instruction": "📤 Upload Content\n\nSend the following information in order:\n\n1️⃣ Title\n2️⃣ Description\n3️⃣ Category (ebook, magazine, handout, question_bank, research_paper)\n4️⃣ Price (in Birr)\n5️⃣ PDF File",
+        "title_prompt": "✅ Title received!\nNow send the description.",
+        "description_prompt": "✅ Description received!\nSend category:",
+        "category_prompt": "✅ Category received!\nSend price (in Birr):",
+        "price_prompt": "✅ Price received!\nNow send the PDF file.",
+        "invalid_price": "❌ Invalid price! Send a number.",
+        "invalid_file": "❌ Unsupported file format!\nPlease send a PDF.",
+        "file_prompt": "❌ Please send a PDF file!\nSend the file as a document.",
+        "success": "✅ Content uploaded successfully!\n\n📖 {title}\n💰 {price} Birr\n\nIt will be published after admin approval.",
+        "cancelled": "❌ Upload cancelled."
+    },
+    
+    "library": {
+        "title": "📖 *My Library*",
+        "empty": "📭 Your library is empty.\nBuy content to fill it!",
+        "download": "📥 Download {title}",
+        "downloaded": "✅ {title} downloaded!"
+    },
+    
+    "admin": {
+        "welcome": "👋 Welcome Admin {name}!\n\n📊 You are in the Admin Bot.\n{status}\nUse the options below.",
+        "pending_count": "📝 {count} content(s) pending review",
+        "dispute_count": "⚠️ {count} dispute(s) need resolution",
+        "dashboard": "📊 *Platform Dashboard*\n\n👥 *Users*\n• Total: {total_users}\n• Authors: {total_authors}\n\n📚 *Content*\n• Total: {total_content}\n• Pending: {pending_content}\n\n💰 *Commerce*\n• Total Purchases: {total_purchases}\n• Total Revenue: {revenue} Birr",
+        "no_pending": "✅ No content pending review!",
+        "approved": "✅ Content '{title}' approved!",
+        "rejected": "❌ Content '{title}' rejected!",
+        "review": "📖 *Content Review*\n\n*Title:* {title}\n*Description:* {description}\n*Category:* {category}\n*Price:* {price} Birr\n*Author:* {author}\n*Copyright:* {copyright}\n*Uploaded:* {date}",
+        "verify_authors": "✅ *Unverified Authors*\n\n{list}",
+        "author_verified": "✅ Author verified!",
+        "disputes": "⚠️ *Pending Disputes*\n\n{list}",
+        "dispute_resolved": "✅ Dispute resolved!",
+        "broadcast": "📢 *Send Broadcast*\n\nType the message you want to send.",
+        "broadcast_sent": "✅ Broadcast sent!\n📤 Sent: {sent}\n❌ Failed: {failed}",
+        "analytics": "📈 *Platform Analytics*\n\n{data}"
+    },
+    
+    "errors": {
+        "admin_only": "⛔ You must be an admin to use this command!",
+        "not_found": "❌ Not found",
+        "try_again": "❌ Please try again.",
+        "unknown": "❌ An unknown error occurred."
+    },
+    
+    "system": {
+        "status": "⚙️ *System Status*\n\n📊 *Database*\n• Size: {size} MB\n• Status: ✅ Active\n\n🤖 *Bots*\n• User Bot: ✅ Active\n• Admin Bot: ✅ Active\n\n📅 *System Time*\n• Now: {time}\n• System: ✅ Healthy"
+    }
+}
