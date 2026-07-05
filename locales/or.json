@@ -1,0 +1,98 @@
+{
+    "language_name": "Oromiffa",
+    "language_code": "or",
+    
+    "welcome": "👋 Anaadhufu {name}!",
+    "welcome_description": "Kun Mardacha Gaazexaa Digitaalaa ti.\nBarreessoonni wantoota dabarsuu fi fayyadamtoonni bituu danda'u.\n\n🔐 Nageenya fi amantii dursee!",
+    "language_prompt": "🌍 Afaan keessan filadhaa:",
+    "language_changed": "✅ Afaan keessan jijjiirame!",
+    
+    "buttons": {
+        "browse": "📚 Marii",
+        "become_author": "✍️ Barreessaa ta'uu",
+        "my_library": "📖 Mankitaabaa koo",
+        "about": "ℹ️ Waa'ee",
+        "admin": "⚙️ Bulchaa",
+        "back": "🔙 Deebi'i",
+        "buy": "🛒 Bii",
+        "download": "📥 Buusuu",
+        "refresh": "🔄 Haaromsuu",
+        "cancel": "❌ Haquu",
+        "change_language": "🌍 Afaan jijjiiruu"
+    },
+    
+    "browse": {
+        "title": "📚 Wantoota jiran:",
+        "empty": "📭 Yeroo ammaa wanti tokko hin jiru.\nDafanii ni dhufa!",
+        "price": "💰 {price} Birrii",
+        "no_description": "Ibsa hin jiru"
+    },
+    
+    "content": {
+        "view": "📖 *{title}*\n\n📝 {description}\n\n💰 Gatii: {price} Birrii\n📊 Gurgurtaa: {sales}\n📂 Ramaddii: {category}",
+        "sample_available": "📎 Fakkeenyi jira",
+        "not_found": "❌ Wantichi hin argamne",
+        "uploaded": "📤 Wantoon dabe!"
+    },
+    
+    "purchase": {
+        "success": "✅ Bituun keessan milkaa'e!\n\n📖 {title}\n💰 {price} Birrii\n\nWantichi kun mankitaabaa keessanitti dabale.",
+        "already_owned": "✅ Duraan bituu keessan ture!\n📖 {title}\n\nBuusuu barbaadduu?",
+        "failed": "❌ Bituun hin milkaane. Yeroo biraa yaali."
+    },
+    
+    "author": {
+        "already": "✅ Duraanuu barreessaa taateetta!\n📊 Sadarkaa: {level}\n📈 Gurgurtaa: {sales}",
+        "welcome": "✍️ Anaadhufu barreessaa!\n\nAmma wantoota dabsachuu dandeessu.\n\n/upload fayyadami wantoota dabsachuuf.\n\n📌 Hubachiisa:\n• Faayilota PDF qofa\n• Mirqa qabduu himuu qaba\n• Gatii bulchaa qaba",
+        "not_author": "❌ Barreessaa hin taane!\nDura /become_author fayyadami."
+    },
+    
+    "upload": {
+        "instruction": "📤 Wantoota Dabsachuu\n\nOdeeffannoo armaan gadii tartiibaan ergaa:\n\n1️⃣ Mataduree\n2️⃣ Ibsa\n3️⃣ Ramaddii (ebook, magazine, handout, question_bank, research_paper)\n4️⃣ Gatii (Birriin)\n5️⃣ Faayila PDF",
+        "title_prompt": "✅ Matadureen fudhatame!\nAmma ibsa ergaa.",
+        "description_prompt": "✅ Ibsi fudhatame!\nRamaddii ergaa:",
+        "category_prompt": "✅ Ramaddiin fudhatame!\nGatii (Birriin) ergaa:",
+        "price_prompt": "✅ Gatiin fudhatame!\nAmma faayila PDF ergaa.",
+        "invalid_price": "❌ Gatii sirrii hin taane! Lakkoofsa ergaa.",
+        "invalid_file": "❌ Faayilii hin deeggaramne!\nPDF ergaa.",
+        "file_prompt": "❌ PDF ergaa!\nFaayila akka sanadaatti ergaa.",
+        "success": "✅ Wantoon keessan milkaa'ee dabe!\n\n📖 {title}\n💰 {price} Birrii\n\nErga bulchaan mirkaneessee booda ni maxxanfama.",
+        "cancelled": "❌ Dabsuun hafame."
+    },
+    
+    "library": {
+        "title": "📖 *Mankitaabaa Koo*",
+        "empty": "📭 Mankitaabaan keessan duwwaa dha.\nWantoota bituun guusaa!",
+        "download": "📥 {title} buusuu",
+        "downloaded": "✅ {title} buufame!"
+    },
+    
+    "admin": {
+        "welcome": "👋 Anaadhufu Bulchaa {name}!\n\n📊 Botii Bulchaa keessa jirtu.\n{status}\nFilannoo armaan gadii fayyadami.",
+        "pending_count": "📝 {count} wantootni mirkaneessa eegachaa jiru",
+        "dispute_count": "⚠️ {count} falmiin furmaata barbaada",
+        "dashboard": "📊 *Dashboordii Mardachaa*\n\n👥 *Fayyadamtoota*\n• Walumaagalatti: {total_users}\n• Barreessoota: {total_authors}\n\n📚 *Wantoota*\n• Walumaagalatti: {total_content}\n• Eegachaa: {pending_content}\n\n💰 *Daldala*\n• Bituu Walumaagalatti: {total_purchases}\n• Galii Walumaagalatti: {revenue} Birrii",
+        "no_pending": "✅ Wantoon mirkaneessa hin jiru!",
+        "approved": "✅ Wantoon '{title}' mirkaneeffame!",
+        "rejected": "❌ Wantoon '{title}' hafame!",
+        "review": "📖 *Mirkaneessa Wantootaa*\n\n*Mataduree:* {title}\n*Ibsa:* {description}\n*Ramaddii:* {category}\n*Gatii:* {price} Birrii\n*Barreessaa:* {author}\n*Mirqa qabduu:* {copyright}\n*Dabame:* {date}",
+        "verify_authors": "✅ *Barreessoota hin mirkanaa'in*\n\n{list}",
+        "author_verified": "✅ Barreessaan mirkanaa'e!",
+        "disputes": "⚠️ *Falmii Eegachaa*\n\n{list}",
+        "dispute_resolved": "✅ Falmii furfame!",
+        "broadcast": "📢 *Ergaa Hafuuraa Erguu*\n\nErgaa erguu barbaaddan barreessaa.",
+        "broadcast_sent": "✅ Ergaa hafuuraa ergame!\n📤 Ergame: {sent}\n❌ Hin ergamne: {failed}",
+        "analytics": "📈 *Madaalli Mardachaa*\n\n{data}"
+    },
+    
+    "errors": {
+        "admin_only": "⛔ Ajaja kana fayyadamuf bulchaa ta'uu qabdu!",
+        "not_found": "❌ Hin argamne",
+        "try_again": "❌ Yeroo biraa yaali.",
+        "unknown": "❌ Dogoggorri beekamaa hin taane uumame."
+    },
+    
+    "system": {
+        "status": "⚙️ *Haala Sistimii*\n\n📊 *Mankitaabaa*\n• Guddataa: {size} MB\n• Haala: ✅ Hojjechaa jira\n\n🤖 *Bootiiwwan*\n• Bootii Fayyadamtootaa: ✅ Hojjechaa\n• Bootii Bulchaa: ✅ Hojjechaa\n\n📅 *Yeroo Sistimii*\n• Amma: {time}\n• Sistimii: ✅ Fayyaa qaba"
+    }
+}
